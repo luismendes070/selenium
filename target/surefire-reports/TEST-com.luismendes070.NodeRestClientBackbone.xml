@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.luismendes070.NodeRestClientBackbone" time="48.96" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\luism\mavenproject2"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="com.luismendes070.NodeRestClientBackbone"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\luism\mavenproject2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="maven.artifact.threads" value="3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\luism\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="E:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar;E:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="E:\Program Files\NetBeans-11.3\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\PHP\v5.6;C:\Program Files (x86)\iis express\PHP\v5.6;C:\Program Files\PHP\v5.3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git LFS;E:\gradle-5.6-all\gradle-5.6\bin;C:\Users\luism\AppData\Local\Android\Sdk\platform-tools;C:\Users\luism\AppData\Local\Android\Sdk\emulator;C:\xampp\php;C:\Users\luism\AppData\Roaming\Python\Python37\Scripts;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;E:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\plugins\maven\lib\maven3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\cygwin64\bin;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\System32\inetsrv;C:\Python27;C:\Program Files (x86)\IntelSWTools\tools\DAL_1.1917.727.110\;C:\Users\luism\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\curl-7.68.0-win64-mingw\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Notepad++;E:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Go\bin;E:\chromedriver_win32;E:\geckodriver-v0.26.0-win64;C:\Program Files\nodejs\;E:\Ruby27-x64\bin;C:\Ruby25-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\heroku\bin;E:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin;;E:\Program Files\JetBrains\RubyMine 2019.3.3\bin;;C:\Users\luism\AppData\Roaming\Composer\vendor\bin;C:\Users\luism\AppData\Local\Yarn\bin;E:\Program Files\JetBrains\WebStorm 2019.3.4\bin;;C:\Program Files\JetBrains\PyCharm 2019.2.5\bin;;E:\Program Files\JetBrains\DataGrip 2019.3.1\bin;;E:\Program Files\JetBrains\PhpStorm 2019.3.1\bin;;E:\Users\luism\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\luism\AppData\Local\Microsoft\WindowsApps;C:\Users\luism\go\bin;C:\Users\luism\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\luism"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="luism"/>
+    <property name="java.class.path" value="E:\Program Files\NetBeans-11.3\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.luismendes070.NodeRestClientBackbone -Dmaven.ext.class.path=E:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar;E:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 -Papache-netbeans-ide surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.6"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Program Files\NetBeans-11.3\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.luismendes070.NodeRestClientBackbone" name="testSimple" time="48.96">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+endencies&quot;:[],&quot;userPermissions&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:false,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource:///modules/themes/light/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}
+1587040291281	addons.xpi	DEBUG	Loading bootstrap scope from resource:///modules/themes/light/
+1587040291281	addons.xpi	DEBUG	Calling bootstrap method install on firefox-compact-light@mozilla.org version 1.0
+1587040291284	addons.xpi-utils	DEBUG	Make addon app-builtin:firefox-compact-dark@mozilla.org visible
+1587040291284	addons.xpi	DEBUG	XPIStates adding add-on firefox-compact-dark@mozilla.org in {&quot;addons&quot;:{&quot;default-theme@mozilla.org&quot;:{&quot;dependencies&quot;:[],&quot;enabled&quot;:true,&quot;loader&quot;:null,&quot;path&quot;:null,&quot;rootURI&quot;:&quot;resource://gre/modules/themes/default/&quot;,&quot;runInSafeMode&quot;:true,&quot;telemetryKey&quot;:&quot;default-theme%40mozilla.org:1.0&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;type&quot;:&quot;theme&quot;},&quot;firefox-compact-light@mozilla.org&quot;:{&quot;dependencies&quot;:[],&quot;enabled&quot;:false,&quot;loader&quot;:null,&quot;path&quot;:null,&quot;rootURI&quot;:&quot;resource:///modules/themes/light/&quot;,&quot;runInSafeMode&quot;:true,&quot;telemetryKey&quot;:&quot;firefox-compact-light%40mozilla.org:1.0&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;type&quot;:&quot;theme&quot;}},&quot;staged&quot;:{}}: null
+1587040291285	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;firefox-compact-dark@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{32e917ef-5cb9-4fc5-959b-b16f09e9cc3c}&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Dark&quot;,&quot;description&quot;:&quot;A theme with a dark color scheme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:false,&quot;userDisabled&quot;:true,&quot;appDisabled&quot;:false,&quot;embedderDisabled&quot;:false,&quot;installDate&quot;:1587040291284,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:null,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:null,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:false,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource:///modules/themes/dark/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}
+1587040291285	addons.xpi	DEBUG	Loading bootstrap scope from resource:///modules/themes/dark/
+1587040291286	addons.xpi	DEBUG	Calling bootstrap method install on firefox-compact-dark@mozilla.org version 1.0
+1587040292701	addons.repository	DEBUG	No addons.json found.
+1587040294076	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
+1587040304691	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 7.0.0
+1587040304699	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587040304703	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587040304706	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587040304712	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+[Parent 11872, Gecko_IOThread] WARNING: file 1587040305815	addons.manager	DEBUG	before shutdown
+z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1587040305823	addons.manager	DEBUG	shutdown
+1587040305826	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587040305826	addons.xpi	DEBUG	shutdown
+1587040305826	addons.xpi-utils	DEBUG	shutdown
+1587040305827	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587040305827	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587040305829	addons.manager	DEBUG	Async provider shutdown done
+[Parent 11872, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DESKTOP-MGC4LF1&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.6&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+endencies&quot;:[],&quot;userPermissions&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:false,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource:///modules/themes/light/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}
+1587040291281	addons.xpi	DEBUG	Loading bootstrap scope from resource:///modules/themes/light/
+1587040291281	addons.xpi	DEBUG	Calling bootstrap method install on firefox-compact-light@mozilla.org version 1.0
+1587040291284	addons.xpi-utils	DEBUG	Make addon app-builtin:firefox-compact-dark@mozilla.org visible
+1587040291284	addons.xpi	DEBUG	XPIStates adding add-on firefox-compact-dark@mozilla.org in {&quot;addons&quot;:{&quot;default-theme@mozilla.org&quot;:{&quot;dependencies&quot;:[],&quot;enabled&quot;:true,&quot;loader&quot;:null,&quot;path&quot;:null,&quot;rootURI&quot;:&quot;resource://gre/modules/themes/default/&quot;,&quot;runInSafeMode&quot;:true,&quot;telemetryKey&quot;:&quot;default-theme%40mozilla.org:1.0&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;type&quot;:&quot;theme&quot;},&quot;firefox-compact-light@mozilla.org&quot;:{&quot;dependencies&quot;:[],&quot;enabled&quot;:false,&quot;loader&quot;:null,&quot;path&quot;:null,&quot;rootURI&quot;:&quot;resource:///modules/themes/light/&quot;,&quot;runInSafeMode&quot;:true,&quot;telemetryKey&quot;:&quot;firefox-compact-light%40mozilla.org:1.0&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;type&quot;:&quot;theme&quot;}},&quot;staged&quot;:{}}: null
+1587040291285	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;firefox-compact-dark@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{32e917ef-5cb9-4fc5-959b-b16f09e9cc3c}&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Dark&quot;,&quot;description&quot;:&quot;A theme with a dark color scheme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:false,&quot;userDisabled&quot;:true,&quot;appDisabled&quot;:false,&quot;embedderDisabled&quot;:false,&quot;installDate&quot;:1587040291284,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:null,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:null,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:false,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource:///modules/themes/dark/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}
+1587040291285	addons.xpi	DEBUG	Loading bootstrap scope from resource:///modules/themes/dark/
+1587040291286	addons.xpi	DEBUG	Calling bootstrap method install on firefox-compact-dark@mozilla.org version 1.0
+1587040292701	addons.repository	DEBUG	No addons.json found.
+1587040294076	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can&apos;t find profile directory.
+1587040304691	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 7.0.0
+1587040304699	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587040304703	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587040304706	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587040304712	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+[Parent 11872, Gecko_IOThread] WARNING: file 1587040305815	addons.manager	DEBUG	before shutdown
+z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1587040305823	addons.manager	DEBUG	shutdown
+1587040305826	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587040305826	addons.xpi	DEBUG	shutdown
+1587040305826	addons.xpi-utils	DEBUG	shutdown
+1587040305827	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587040305827	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587040305829	addons.manager	DEBUG	Async provider shutdown done
+[Parent 11872, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DESKTOP-MGC4LF1&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.luismendes070.NodeRestClientBackbone.testSimple(NodeRestClientBackbone.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DESKTOP-MGC4LF1&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:131)
+	at org.openqa.selenium.firefox.FirefoxBinary.waitFor(FirefoxBinary.java:222)
+	at org.openqa.selenium.firefox.FirefoxBinary.clean(FirefoxBinary.java:242)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:91)
+	... 36 more
+Caused by: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+	at org.openqa.selenium.os.UnixProcess.waitFor(UnixProcess.java:148)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:129)
+	... 39 more
+</error>
+  </testcase>
+</testsuite>

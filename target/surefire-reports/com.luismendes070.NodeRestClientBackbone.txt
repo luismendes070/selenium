@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: com.luismendes070.NodeRestClientBackbone
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 49.117 sec <<< FAILURE!
+testSimple(com.luismendes070.NodeRestClientBackbone)  Time elapsed: 48.96 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+endencies":[],"userPermissions":null,"icons":{"32":"icon.svg"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":false,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource:///modules/themes/light/","location":"app-builtin"}
+1587040291281	addons.xpi	DEBUG	Loading bootstrap scope from resource:///modules/themes/light/
+1587040291281	addons.xpi	DEBUG	Calling bootstrap method install on firefox-compact-light@mozilla.org version 1.0
+1587040291284	addons.xpi-utils	DEBUG	Make addon app-builtin:firefox-compact-dark@mozilla.org visible
+1587040291284	addons.xpi	DEBUG	XPIStates adding add-on firefox-compact-dark@mozilla.org in {"addons":{"default-theme@mozilla.org":{"dependencies":[],"enabled":true,"loader":null,"path":null,"rootURI":"resource://gre/modules/themes/default/","runInSafeMode":true,"telemetryKey":"default-theme%40mozilla.org:1.0","version":"1.0","type":"theme"},"firefox-compact-light@mozilla.org":{"dependencies":[],"enabled":false,"loader":null,"path":null,"rootURI":"resource:///modules/themes/light/","runInSafeMode":true,"telemetryKey":"firefox-compact-light%40mozilla.org:1.0","version":"1.0","type":"theme"}},"staged":{}}: null
+1587040291285	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox-compact-dark@mozilla.org","syncGUID":"{32e917ef-5cb9-4fc5-959b-b16f09e9cc3c}","version":"1.0","type":"theme","loader":null,"updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Dark","description":"A theme with a dark color scheme.","creator":"Mozilla","developers":null,"translators":null,"contributors":null},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"embedderDisabled":false,"installDate":1587040291284,"applyBackgroundUpdates":1,"path":null,"skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"userPermissions":null,"icons":{"32":"icon.svg"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":false,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource:///modules/themes/dark/","location":"app-builtin"}
+1587040291285	addons.xpi	DEBUG	Loading bootstrap scope from resource:///modules/themes/dark/
+1587040291286	addons.xpi	DEBUG	Calling bootstrap method install on firefox-compact-dark@mozilla.org version 1.0
+1587040292701	addons.repository	DEBUG	No addons.json found.
+1587040294076	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1587040304691	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 7.0.0
+1587040304699	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587040304703	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587040304706	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587040304712	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+[Parent 11872, Gecko_IOThread] WARNING: file 1587040305815	addons.manager	DEBUG	before shutdown
+z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1587040305823	addons.manager	DEBUG	shutdown
+1587040305826	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587040305826	addons.xpi	DEBUG	shutdown
+1587040305826	addons.xpi-utils	DEBUG	shutdown
+1587040305827	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587040305827	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587040305829	addons.manager	DEBUG	Async provider shutdown done
+[Parent 11872, Gecko_IOThread] WARNING: file z:/task_1583751780/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DESKTOP-MGC4LF1', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.luismendes070.NodeRestClientBackbone.testSimple(NodeRestClientBackbone.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DESKTOP-MGC4LF1', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:131)
+	at org.openqa.selenium.firefox.FirefoxBinary.waitFor(FirefoxBinary.java:222)
+	at org.openqa.selenium.firefox.FirefoxBinary.clean(FirefoxBinary.java:242)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:91)
+	... 36 more
+Caused by: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+	at org.openqa.selenium.os.UnixProcess.waitFor(UnixProcess.java:148)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:129)
+	... 39 more
+
